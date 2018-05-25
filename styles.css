@@ -1,3 +1,25 @@
 body {
-  color: blue;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.big-landing {
+  background-color: red;
+  padding-bottom: 100%;
+}
+
+.bck-img {
+  background-attachment: fixed;
+  background-image: url("https://i.redd.it/7pqyn014dzz01.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 1440px;
+}
+
+.text-intro {
+  padding-left: 10%;
+  padding-top: 16%;
+  text-transform: uppercase;
 }
