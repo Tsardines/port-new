@@ -7,7 +7,7 @@ body {
 
 .big-landing {
   /* background-color: red; */
-  padding-bottom: 100%;
+  padding-bottom: 0px;
 }
 
 .bck-img {
@@ -16,7 +16,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 900px;
+  height: 550px;
   width: 100%;
 }
 
@@ -35,4 +35,32 @@ body {
 
 .one {
   background-color: blue;
+  height: 150px;
+  width: 50%;
+}
+
+.two {
+  background-color: red;
+  height: 150px;
+  width: 50%;
+}
+
+.three {
+  background-color: green;
+  height: 150px;
+  width: 50%;
+}
+
+.four {
+  background-color: turquoise;
+  height: 150px;
+  width: 50%;
+}
+
+.projects-container {
+  background-color: black;
+}
+
+.projects-grid {
+  display: flex;
 }
