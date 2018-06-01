@@ -1,13 +1,19 @@
 body {
   color: white;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Hind', sans-serif;
   margin: 0;
   width: 100%;
 }
 
+footer {
+   background-color: turquoise;
+   padding: 10px 0 ;
+}
+
+
 .big-landing {
   /* background-color: red; */
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .bck-img {
@@ -59,18 +65,21 @@ body {
 
 .projects-container {
   background-color:  #404040;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .projects-grid-1 {
   display: flex;
-  height: 100%;
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .projects-grid-2 {
   display: flex;
-  height: 100%;
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 /* ~~~~~~ */
@@ -90,7 +99,7 @@ body {
   width: 45%;
 }
 
-.bottom {
+.about {
   color: black;
   padding-bottom:  100px;
 }
@@ -103,11 +112,11 @@ a{text-decoration:none;}
 }
 
 .textOverImage {
-  display: flex;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   border-radius: 4px;
+  display: flex;
   /* box-shadow: 0 0 7px #000; */
   flex-wrap: wrap;
   float: left;
@@ -166,4 +175,24 @@ a{text-decoration:none;}
   padding: 8px;
   transform: translateY(0);
   transition: 0.5s;
+}
+
+
+/* ----- Tech ----- */
+
+.tech-background {
+  background-color:  #404040;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.tech-background ul {
+  font-size: 25px;
+}
+
+.tech-background li {
+  font-size: 20px;
+  list-style-type: none;
 }
