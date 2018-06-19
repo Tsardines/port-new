@@ -18,7 +18,7 @@ footer {
 
 .bck-img {
   background-attachment: fixed;
-  background-image: url("images/DSC_0333.jpg");
+  background-image: url("images/subway.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,8 +32,8 @@ footer {
 
 .text-intro {
   font-size: 40px;
-  padding-left: 10%;
-  padding-top: 28%;
+  padding-right: 10%;
+  padding-top: 38%;
   text-transform: uppercase;
 }
 
