@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   color: white;
   font-family: 'Hind', sans-serif;
   margin: 0;
@@ -208,21 +209,20 @@ a{text-decoration:none;}
 
 
 
-
-
 /* ----- Footer ----- */
 
 .footer {
-  background-color: black;
+  background-color: turquoise;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .left-box {
+  color: black;
   height: 200px;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: center;
   width: 350px;
 }
@@ -232,18 +232,19 @@ a{text-decoration:none;}
 }
 
 .left-box p {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .left-box p:hover {
-  color: turquoise;
-  font-size: 15px;
+  color: white;
+  font-size: 18px;
 }
 
 .right-box {
+  color: black;
   height: 200px;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: center;
   width: 350px;
 }
