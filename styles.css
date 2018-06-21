@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #323232;
   color: white;
   font-family: 'Hind', sans-serif;
   margin: 0;
@@ -193,20 +193,18 @@ a{text-decoration:none;}
 }
 
 .tech-background ul {
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .tech-background li {
-  font-size: 20px;
+  font-size: 25px;
   list-style-type: none;
 }
 
 .tech-background li:hover {
   color: turquoise;
-  font-size: 20px;
   list-style-type: none;
 }
-
 
 
 /* ----- Footer ----- */
@@ -216,6 +214,7 @@ a{text-decoration:none;}
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 40px;
 }
 
 .left-box {
@@ -228,7 +227,7 @@ a{text-decoration:none;}
 }
 
 .left-box h1 {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .left-box p {
@@ -237,7 +236,6 @@ a{text-decoration:none;}
 
 .left-box p:hover {
   color: white;
-  font-size: 18px;
 }
 
 .right-box {
@@ -247,6 +245,10 @@ a{text-decoration:none;}
   margin-top: 10px;
   text-align: center;
   width: 350px;
+}
+
+.right-box h1 {
+  font-size: 35px;
 }
 
 .right-box img {
