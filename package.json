@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "bootstrap": "^4.1.1"
+    "bootstrap": "^4.1.1",
+    "stylus": "^0.54.5"
   }
 }

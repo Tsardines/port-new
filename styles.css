@@ -1,3 +1,21 @@
+@media only screen
+   and (max-width : 1125px)
+   and (max-height : 2001px) {
+   /* Styles here */
+}
+
+@media only screen
+   and (max-width : 1440px)
+   and (max-height : 2560px) {
+   /* Styles here */
+}
+
+@media only screen
+   and (max-width : 1440px)
+   and (max-height : 900px) {
+   /* Styles here */
+}
+
 body {
   background-color: #323232;
   color: white;
@@ -86,7 +104,7 @@ footer {
 
 /* ~~~~~~~~ Text Over Image ~~~~~~~~ */
 
-a{text-decoration:none;}
+/* a{text-decoration:none;}
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active){
   .textOverImage{background-size:cover!important;}
 }
@@ -97,7 +115,6 @@ a{text-decoration:none;}
   background-size: 100%;
   border-radius: 4px;
   display: flex;
-  /* box-shadow: 0 0 7px #000; */
   flex-wrap: wrap;
   float: left;
   height: 342px;
@@ -113,7 +130,6 @@ a{text-decoration:none;}
 }
 
 .textOverImage:before{
-  /* background-color: rgba(0,0,0,0.3); */
   bottom: 0;
   color: #fff;
   content:attr(data-title);
@@ -155,7 +171,8 @@ a{text-decoration:none;}
   padding: 8px;
   transform: translateY(0);
   transition: 0.5s;
-}
+} */
+
 
 
 /* ~~~~~~ about ~~~~~~ */
