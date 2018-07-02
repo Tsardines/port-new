@@ -57,6 +57,7 @@ footer {
 }
 
 .projects {
+  text-align: center;
   font-size: 40px;
   padding-left: 10%;
   padding-top: 20px;
@@ -167,8 +168,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 0;
   padding-bottom: 30px;
+  padding-top: 0;
 }
 
 .tech-background ul {
@@ -185,13 +186,14 @@ footer {
   list-style-type: none;
 }
 
-.tech-column {
-  padding: 30px;
-}
+
+
+
+
 
 .tech-tile img {
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
 }
 
 .tech-tile img:hover {

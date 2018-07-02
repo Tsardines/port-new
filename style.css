@@ -90,15 +90,15 @@ a:hover {
   word-wrap: break-word;
 }
 .row__inner:hover {
-  transform: translate3d(-62.5px, 0, 0);
+  transform: translate3d(-93.75px, 0, 0);
 }
 .row__inner:hover .tile {
   opacity: 0.3;
 }
 .row__inner:hover .tile:hover {
-  transform: scale(1.5);
+  transform: scale(1.75);
   opacity: 1;
 }
 .tile:hover ~ .tile {
-  transform: translate3d(125px, 0, 0);
+  transform: translate3d(187.5px, 0, 0);
 }
