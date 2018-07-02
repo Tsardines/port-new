@@ -1,0 +1,53 @@
+@media (min-width:320px)  {   .sidebar, .content {
+     float: left;
+     width: 75%;
+
+  } about-text {
+    display: flex;
+    width: 100%;
+  }/* smartphones, iPhone, portrait 480x320 phones */ }
+
+
+@media (min-width:481px)  {   .sidebar, .content {
+     float: left;
+     width: 75%;
+  }/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+
+
+@media (min-width:641px)  {   .sidebar, .content {
+     float: left;
+     width: 75%;
+  }/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+
+
+@media (min-width:961px)  {   .sidebar, .content {
+     float: left;
+     width: 75%;
+  }/* tablet, landscape iPad, lo-res laptops ands desktops */ }
+
+
+@media (min-width:1025px) {   .sidebar, .content {
+     float: left;
+     width: 75%;
+  }/* big landscape tablets, laptops, and desktops */ }
+
+
+@media (min-width:1281px) {   .sidebar, .content {
+     float: left;
+     width: 75%;
+  }/* hi-res laptops and desktops */ }
+
+
+
+
+  /* Desktops and laptops ----------- */
+  @media only screen
+  and (min-width : 1224px) {
+  /* STYLES GO HERE */
+  }
+
+  /* Large screens ----------- */
+  @media only screen
+  and (min-width : 1824px) {
+  /* STYLES GO HERE */
+  }
