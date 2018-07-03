@@ -12,34 +12,30 @@ footer {
 }
 
 
-.big-landing {
-  /* background-color: red; */
+/* .big-landing {
   padding-bottom: 0;
-}
+} */
 
 .bck-img {
-  background-attachment: fixed;
-  /* background-image: url("images/subway.jpg"); */
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: auto;
   max-width: 100%;
-}
-
-.subtitle {
-  font-size: 20px;
 }
 
 .text-intro {
   font-size: 40px;
   /* overflow-y: scroll; */
-  /* padding-left: 40%;
-  padding-top: 38%; */
+  padding-left: 60%;
+  padding-top: 30%;
+  overflow: auto;
   position: absolute;
+  text-align: right;
   text-transform: uppercase;
-  width: 200px;
+  white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+.projects-cont {
+  background-color: #25201A;
 }
 
 .projects {
@@ -53,21 +49,25 @@ footer {
 /* ~~~~~~ about ~~~~~~ */
 
 .about-pic {
-  background-attachment: fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: auto;
   max-width: 100%;
 }
 
 .about-text {
-  max-width: 40%;
+  max-width: 47%;
   padding-left: 10%;
+  padding-top: 20%;
   position: absolute;
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
   word-wrap: break-word;
-  /* width: 45%; */
+}
+
+.about-text h1 {
+  font-size: 25px;
+}
+
+.about-text p {
+  font-size: 22px;
 }
 
 .about {

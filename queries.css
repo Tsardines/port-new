@@ -3,8 +3,9 @@
      width: 75%;
 
   } about-text {
-    display: flex;
-    width: 100%;
+    /* display: flex; */
+    font-size: 12px;
+    max-width: 47%;
   }/* smartphones, iPhone, portrait 480x320 phones */ }
 
 
@@ -43,11 +44,19 @@
   /* Desktops and laptops ----------- */
   @media only screen
   and (min-width : 1224px) {
-  /* STYLES GO HERE */
-  }
+    } about-text {
+      /* display: flex; */
+      font-size: 12px;
+      max-width: 47%;
+    }
+
 
   /* Large screens ----------- */
   @media only screen
   and (min-width : 1824px) {
-  /* STYLES GO HERE */
-  }
+    } about-text {
+      /* display: flex; */
+      font-size: 12px;
+      max-width: 47%;
+    }
+  
