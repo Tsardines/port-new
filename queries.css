@@ -12,7 +12,7 @@
     /* display: flex; */
     font-size: 12px;
     max-width: 47%;
-  }/* smartphones, iPhone, portrait 480x320 phones */ }
+  }/* smartphones, iPhone, portrait 480x320 phones */ 
 
 
 @media (min-width:481px)  {   .sidebar, .content {
