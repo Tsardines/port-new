@@ -2,6 +2,12 @@
      float: left;
      width: 75%;
 
+     } text-intro {
+       /* display: flex; */
+       font-size: 12px;
+       max-width: 47%;
+     }
+
   } about-text {
     /* display: flex; */
     font-size: 12px;
@@ -48,7 +54,11 @@
       /* display: flex; */
       font-size: 12px;
       max-width: 47%;
-    }
+    }      text-intro {
+           /* display: flex; */
+           font-size: 35px;
+           max-width: 47%;
+         }
 
 
   /* Large screens ----------- */
@@ -57,6 +67,9 @@
     } about-text {
       /* display: flex; */
       font-size: 12px;
-      max-width: 47%;
-    }
-  
+      max-width: 60%;
+      } text-intro {
+        /* display: flex; */
+        font-size: 40px;
+        max-width: 60%;
+      }
