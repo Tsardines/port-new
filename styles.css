@@ -24,9 +24,9 @@ footer {
 .text-intro {
   font-size: 40px;
   /* overflow-y: scroll; */
+  overflow: auto;
   padding-left: 60%;
   padding-top: 30%;
-  overflow: auto;
   position: absolute;
   text-align: center;
   text-transform: uppercase;
@@ -84,7 +84,6 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 30px;
-  padding-top: 0;
 }
 
 .tech-background ul {
