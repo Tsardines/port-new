@@ -131,7 +131,6 @@ footer {
 }
 
 .tech-background li:hover {
-  color: turquoise;
   list-style-type: none;
 }
 
@@ -217,7 +216,6 @@ footer {
 }
 
 .icon1 {
-  /* position: absolute; */
 	transition: 0.6s;
 	transform-style: preserve-3d;
   float: left;
@@ -228,7 +226,6 @@ footer {
 }
 
 .icon2 {
-  /* position: absolute; */
 	transition: 0.6s;
 	transform-style: preserve-3d;
   float: left;
@@ -239,7 +236,6 @@ footer {
 }
 
 .icon3 {
-  /* position: absolute; */
 	transition: 0.6s;
 	transform-style: preserve-3d;
   float: left;
