@@ -152,7 +152,7 @@ footer {
   display: flex;
   font-size: 35px;
   justify-content: center;
-  padding-top: 0;
+  padding-top: 10px;
 }
 
 
@@ -195,17 +195,54 @@ footer {
   height: 200px;
   margin-bottom: 30px;
   margin-top: 10px;
+  padding-left: 50px;
   text-align: center;
   width: 350px;
 }
 
 .right-box h1 {
   font-size: 35px;
+  padding-right: 75px;
+  text-align: center;
 }
 
 .right-box img {
   height: 75px;
   width: 75px;
+}
+
+
+.icon1:hover {
+  transform: rotateY(180deg);
+}
+
+.icon1 {
+  /* position: absolute; */
+	transition: 0.6s;
+	transform-style: preserve-3d;
+  float: left;
+}
+
+.icon2:hover {
+  transform: rotateY(180deg);
+}
+
+.icon2 {
+  /* position: absolute; */
+	transition: 0.6s;
+	transform-style: preserve-3d;
+  float: left;
+}
+
+.icon3:hover {
+  transform: rotateY(180deg);
+}
+
+.icon3 {
+  /* position: absolute; */
+	transition: 0.6s;
+	transform-style: preserve-3d;
+  float: left;
 }
 
 
