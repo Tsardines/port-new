@@ -161,7 +161,7 @@
   }
 
   .text-intro {
-    font-size: 29px;
+    font-size: 25px;
     padding-top: 30%;
     position: absolute;
     /* white-space: pre-wrap; */
@@ -187,20 +187,20 @@
   .tile {
     display: flex;
     flex-direction: column;
-    height: 100px;
-    width: 150px;
+    height: 300px;
+    width: 350px;
   }
 
   .tile_img {
-    height: 100px;
-    width: 150px;
+    height: 300px;
+    width: 350px;
   }
 
   .tile_details {
     background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
     font-size: 30px;
-    height: 100px;
-    width: 150px;
+    height: 300px;
+    width: 350px;
   }
 
   /**/
