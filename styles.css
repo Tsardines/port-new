@@ -48,7 +48,7 @@ footer {
 
 /* ~~~~~~ about ~~~~~~ */
 
-.about-pic {
+/* .about-pic {
   height: auto;
   max-width: 100%;
 }
@@ -58,7 +58,6 @@ footer {
   padding-left: 10%;
   padding-top: 20%;
   position: absolute;
-  /* white-space: pre-wrap; */
   word-wrap: break-word;
 }
 
@@ -73,13 +72,16 @@ footer {
 .about {
   color: black;
   padding-bottom:  100px;
-}
+} */
 
 
 /* ----- Tech ----- */
 
 .tech-background {
-  background-color: #25201A;
+  background: rgb(14,255,206) no-repeat center center fixed;
+  background: linear-gradient(0deg, rgba(14,255,206,1) 0%, rgba(31,150,255,1) 98%);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -124,7 +126,7 @@ footer {
 /* ----- Footer ----- */
 
 .footer {
-  background-color: turquoise;
+  background-color: black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -132,7 +134,7 @@ footer {
 }
 
 .left-box {
-  color: black;
+  color: white;
   height: 200px;
   margin-bottom: 30px;
   margin-top: 10px;
@@ -153,7 +155,7 @@ footer {
 }
 
 .right-box {
-  color: black;
+  color: white;
   height: 200px;
   margin-bottom: 30px;
   margin-top: 10px;

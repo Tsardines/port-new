@@ -20,6 +20,7 @@ a:hover {
 }
 .row {
   overflow: scroll;
+  padding-left: 10%;
   width: 100%;
 }
 .row__inner {
