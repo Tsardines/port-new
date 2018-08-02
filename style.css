@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 a {
-  color: #00f;
+  color: #73d4ff;
 }
 a:link,
 a:hover,
@@ -20,7 +20,6 @@ a:hover {
 }
 .row {
   overflow: scroll;
-  padding-left: 10%;
   width: 100%;
 }
 .row__inner {
