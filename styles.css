@@ -1,5 +1,5 @@
 body {
-  background-color: #25201A;
+  /* background-color: #25201A; */
   color: white;
   font-family: 'Hind', sans-serif;
   margin: 0;
@@ -23,17 +23,17 @@ footer {
 /* Haley underline */
 
 .haley {
-  color: #00a2ff;
+  color: black;
   position: relative;
   text-decoration: none;
 }
 
 .haley:hover {
-    color: #00a2ff;
-  }
+  color: black;
+}
 
 .haley:before {
-  background-color: #00a2ff;
+  background-color: black;
   bottom: 0;
   content: "";
   height: 7px;
@@ -53,25 +53,32 @@ footer {
   transform: scaleX(1);
 }
 
-.img-cont {
+.hero {
   background: rgb(14,255,206) no-repeat center center fixed;
   background: linear-gradient(0deg, rgba(14,255,206,1) 0%, rgba(31,150,255,1) 98%);
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+  position: absolute;
+  width: 100%;
 }
 
 .text-intro {
   font-size: 40px;
   /* overflow-y: scroll; */
   overflow: auto;
-  padding-left: 60%;
-  padding-top: 30%;
-  position: absolute;
-  text-align: center;
+  padding-left: 2em;
+  padding-top: 5em;
+  position: relative;
+  text-align: left;
   text-transform: uppercase;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+.svg {
+  padding-top: 25.25%;
+  position: relative;
 }
 
 .projects-cont {
@@ -79,6 +86,7 @@ footer {
 }
 
 .projects {
+  color: black;
   font-size: 40px;
   padding-top: 20px;
   text-align: center;
@@ -138,6 +146,7 @@ footer {
 }
 
 .tech-tile {
+  color: black;
   padding: 5px;
 }
 
