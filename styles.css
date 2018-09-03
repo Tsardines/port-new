@@ -7,13 +7,12 @@ body {
 }
 
 footer {
-   padding: 10px 0 ;
+  padding: 10px 0 ;
 }
 
-
-/* .big-landing {
-  padding-bottom: 0;
-} */
+#particles-js {
+  position: relative;
+}
 
 .bck-img {
   height: auto;
@@ -64,14 +63,15 @@ footer {
 }
 
 .text-intro {
+  float: right;
   font-size: 40px;
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
   overflow: auto;
   padding-left: 2em;
-  padding-top: 5em;
-  position: relative;
+  position: absolute;
   text-align: left;
   text-transform: uppercase;
+  top: 5em;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
