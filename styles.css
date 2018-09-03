@@ -1,5 +1,5 @@
 body {
-  /* background-color: #25201A; */
+  background-color: #eff2f3;
   color: white;
   font-family: 'Hind', sans-serif;
   margin: 0;
@@ -81,17 +81,18 @@ footer {
   position: relative;
 }
 
-.projects-cont {
-
-}
-
 .projects {
+  /* background-color: #eaeff1; */
   color: black;
   font-size: 40px;
   padding-top: 20px;
   text-align: center;
   text-transform: uppercase;
 }
+
+/* .row {
+  background-color: #eaeff1;
+} */
 
 
 /* ~~~~~~ about ~~~~~~ */
@@ -160,6 +161,7 @@ footer {
 }
 
 .tech-title {
+  color: black;
   display: flex;
   font-size: 35px;
   justify-content: center;
