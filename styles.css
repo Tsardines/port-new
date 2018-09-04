@@ -19,6 +19,35 @@ footer {
   max-width: 100%;
 }
 
+.hero {
+  background: rgb(14,255,206) no-repeat center center fixed;
+  background: linear-gradient(0deg, rgba(14,255,206,1) 0%, rgba(31,150,255,1) 98%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: absolute;
+  width: 100%;
+  /* -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  transform: skewY(-2deg); */
+}
+
+.text-intro {
+  float: right;
+  font-size: 40px;
+  overflow-y: scroll;
+  overflow: auto;
+  padding-left: 2em;
+  position: absolute;
+  text-align: left;
+  text-transform: uppercase;
+  top: 5em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
 /* Haley underline */
 
 .haley {
@@ -50,30 +79,6 @@ footer {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-}
-
-.hero {
-  background: rgb(14,255,206) no-repeat center center fixed;
-  background: linear-gradient(0deg, rgba(14,255,206,1) 0%, rgba(31,150,255,1) 98%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-  position: absolute;
-  width: 100%;
-}
-
-.text-intro {
-  float: right;
-  font-size: 40px;
-  overflow-y: scroll;
-  overflow: auto;
-  padding-left: 2em;
-  position: absolute;
-  text-align: left;
-  text-transform: uppercase;
-  top: 5em;
-  white-space: pre-wrap;
-  word-wrap: break-word;
 }
 
 .svg {
