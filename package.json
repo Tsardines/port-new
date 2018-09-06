@@ -2,6 +2,7 @@
   "dependencies": {
     "bootstrap": "^4.1.1",
     "particles.js": "^2.0.0",
+    "particlesjs": "^2.2.3",
     "stylus": "^0.54.5"
   }
 }

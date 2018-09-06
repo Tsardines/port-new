@@ -222,3 +222,157 @@
   }
 
 }
+
+
+
+
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+
+  footer {
+    font-size: 40px;
+  }
+
+  .text-intro {
+    font-size: 25px;
+    padding-top: 30%;
+    position: absolute;
+    /* white-space: pre-wrap; */
+    width: auto;
+    word-wrap: break-word;
+  }
+
+  /**/
+
+  .projects-cont {
+    background: rgb(14,255,206) no-repeat center center fixed;
+    background: linear-gradient(0deg, rgba(14,255,206,1) 0%, rgba(31,150,255,1) 98%);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .projects {
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .tile {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 150px;
+  }
+
+  .tile_img {
+    height: 100px;
+    width: 150px;
+  }
+
+  .tile_details {
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+    font-size: 30px;
+    height: 100px;
+    width: 150px;
+  }
+
+  /**/
+
+  .tech-tile {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .tech-tile img {
+    height: 90px;
+    width: 90px;
+  }
+
+  .right-box img {
+    height: 50px;
+    width: 50px;
+  }
+
+}
+
+
+
+
+
+/* ------ 13" screen ------ */
+@media only screen and (min-device-width: 1200px) and (max-device-height:800px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+
+  footer {
+    font-size: 40px;
+  }
+
+  .hero {
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+  }
+
+  .text-intro {
+    font-size: 25px;
+    padding-top: 30%;
+    position: absolute;
+    /* white-space: pre-wrap; */
+    word-wrap: break-word;
+  }
+
+  /**/
+
+  .projects-cont {
+    background: rgb(14,255,206) no-repeat center center fixed;
+    background: linear-gradient(0deg, rgba(14,255,206,1) 0%, rgba(31,150,255,1) 98%);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .projects {
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .tile {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 350px;
+  }
+
+  .tile_img {
+    height: 300px;
+    width: 350px;
+  }
+
+  .tile_details {
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+    font-size: 30px;
+    height: 300px;
+    width: 350px;
+  }
+
+  /**/
+
+  .tech-tile {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .tech-tile img {
+    height: 90px;
+    width: 90px;
+  }
+
+  .right-box img {
+    height: 50px;
+    width: 50px;
+  }
+
+}
