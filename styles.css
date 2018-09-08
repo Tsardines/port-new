@@ -24,14 +24,15 @@ footer {
   background: linear-gradient(0deg, rgba(14,255,206,1) 0%, rgba(31,150,255,1) 98%);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
-  position: absolute;
+  height: 480px;
+  /* position: absolute; */
+  margin-top: -25px;
   width: 100%;
-  /* -webkit-transform: skewY(-2deg);
+  -webkit-transform: skewY(-2deg);
   -moz-transform: skewY(-2deg);
   -ms-transform: skewY(-2deg);
   -o-transform: skewY(-2deg);
-  transform: skewY(-2deg); */
+  transform: skewY(-2deg);
 }
 
 .text-intro {
@@ -46,6 +47,11 @@ footer {
   top: 5em;
   white-space: pre-wrap;
   word-wrap: break-word;
+  -webkit-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  transform: skewY(2deg);  /* INVERSE SKEW */
 }
 
 /* Haley underline */
@@ -184,7 +190,14 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  outline: 1px solid transparent; /* removed jagged div edge */
   padding-bottom: 40px;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  transform: skewY(-2deg);
 }
 
 .left-box {
@@ -198,10 +211,20 @@ footer {
 
 .left-box h1 {
   font-size: 35px;
+  -webkit-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  transform: skewY(2deg);
 }
 
 .left-box p {
   font-size: 18px;
+  -webkit-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  transform: skewY(2deg);
 }
 
 .left-box p:hover {
@@ -226,11 +249,21 @@ footer {
   font-size: 35px;
   padding-right: 75px;
   text-align: center;
+  -webkit-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  transform: skewY(2deg);
 }
 
 .right-box img {
   height: 75px;
   width: 75px;
+  -webkit-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  transform: skewY(2deg);
 }
 
 
