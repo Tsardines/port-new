@@ -11,7 +11,9 @@ footer {
 }
 
 .particles-js {
-  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }
 
 .bck-img {
@@ -87,10 +89,10 @@ footer {
   transform: scaleX(1);
 }
 
-.svg {
+/* .svg {
   padding-top: 25.25%;
   position: relative;
-}
+} */
 
 .projects {
   /* background-color: #eaeff1; */
