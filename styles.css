@@ -30,11 +30,11 @@ footer {
   /* position: absolute; */
   margin-top: -25px;
   width: 100%;
-  -webkit-transform: skewY(-2deg);
-  -moz-transform: skewY(-2deg);
-  -ms-transform: skewY(-2deg);
-  -o-transform: skewY(-2deg);
-  transform: skewY(-2deg);
+  -webkit-transform: skewY(-1deg);
+  -moz-transform: skewY(-1deg);
+  -ms-transform: skewY(-1deg);
+  -o-transform: skewY(-1deg);
+  transform: skewY(-1deg);
 }
 
 .text-intro {
@@ -192,14 +192,15 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: -25px;
   outline: 1px solid transparent; /* removed jagged div edge */
   padding-bottom: 40px;
   -webkit-backface-visibility: hidden;
-  -webkit-transform: skewY(-2deg);
-  -moz-transform: skewY(-2deg);
-  -ms-transform: skewY(-2deg);
-  -o-transform: skewY(-2deg);
-  transform: skewY(-2deg);
+  -webkit-transform: skewY(-1deg);
+  -moz-transform: skewY(-1deg);
+  -ms-transform: skewY(-1deg);
+  -o-transform: skewY(-1deg);
+  transform: skewY(-1deg);
 }
 
 .left-box {
