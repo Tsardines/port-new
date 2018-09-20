@@ -179,6 +179,11 @@ footer {
   font-size: 35px;
   justify-content: center;
   padding-top: 10px;
+  width: 100%;
+}
+
+.p {
+  text-align: center;
 }
 
 
