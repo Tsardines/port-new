@@ -139,11 +139,44 @@ footer {
 
 /* ----- Tech ----- */
 
+.tech {
+  display: inline;
+  justify-content: center;
+}
+
+.tech-box-left h1 {
+  color: black;
+}
+
+.tech-box-left {
+  background-color: green;
+  float: left;
+  height: 70vh;
+  margin: 0 3em 0 3em;
+  width: 40%;
+}
+
+.about-box {
+  background-color: red;
+  font-size: 0.9em;
+  height: 50%;
+  width: 50%;
+}
+
+.facts-box {
+  background-color: blue;
+  height: 50%;
+  width: 50%;
+}
+
 .tech-background {
+  background-color: turquoise;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 65px 0 65px 0;
+  margin: 20%;
+  padding: 45px 10px 65px 0;
+  width: 48%;
 }
 
 .tech-background ul {
@@ -165,8 +198,8 @@ footer {
 }
 
 .tech-tile img {
-  height: 120px;
-  width: 120px;
+  height: 90px;
+  width: 90px;
 }
 
 .tech-tile img:hover {
