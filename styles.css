@@ -146,6 +146,7 @@ footer {
 
 .about-box {
   background-color: #eaebeb;
+  box-shadow: 5px 10px #cce8e8;
   font-size: 1.2em;
   height: 50%;
   padding: 0.5em;
@@ -155,6 +156,7 @@ footer {
 
 .facts-box {
   background-color: #eaebeb;
+  box-shadow: 5px 10px #cce8e8;
   height: 50%;
   margin-top: 2em;
   padding: 1.5em;
@@ -167,6 +169,7 @@ footer {
 
 .tech-tools {
   background-color: #eaebeb;
+  box-shadow: 5px 10px #cce8e8;
   color: black;
   display: flex;
   height: 100%;
