@@ -147,7 +147,7 @@ footer {
 .about-box {
   background-color: #eaebeb;
   box-shadow: 5px 10px #cce8e8;
-  font-size: 1.2em;
+  font-size: 1.1em;
   height: 50%;
   padding: 0.5em;
   margin-top: 2.6em;
@@ -219,6 +219,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: -25px;
+  margin-top: 6em;
   outline: 1px solid transparent; /* removed jagged div edge */
   padding-bottom: 40px;
   -webkit-backface-visibility: hidden;
