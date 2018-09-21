@@ -40,6 +40,7 @@ footer {
 .text-intro {
   float: right;
   font-size: 40px;
+  height: 5em;
   overflow-y: scroll;
   overflow: auto;
   padding-left: 2em;
@@ -48,12 +49,13 @@ footer {
   text-transform: uppercase;
   top: 5em;
   white-space: pre-wrap;
+  width: 15em;
   word-wrap: break-word;
-  -webkit-transform: skewY(2deg);
-  -moz-transform: skewY(2deg);
-  -ms-transform: skewY(2deg);
-  -o-transform: skewY(2deg);
-  transform: skewY(2deg);  /* INVERSE SKEW */
+  -webkit-transform: skewY(1deg);
+  -moz-transform: skewY(1deg);
+  -ms-transform: skewY(1deg);
+  -o-transform: skewY(1deg);
+  transform: skewY(1deg);  /* INVERSE SKEW */
 }
 
 /* Haley underline */
@@ -89,16 +91,19 @@ footer {
   transform: scaleX(1);
 }
 
+.animate.bounce {
+  transition-timing-function: cubic-bezier(0.85, -0.95, 0.3, 2);
+}
+
 /* .svg {
   padding-top: 25.25%;
   position: relative;
 } */
 
 .projects {
-  /* background-color: #eaeff1; */
   color: black;
   font-size: 40px;
-  padding-top: 20px;
+  padding-top: 1em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -108,40 +113,16 @@ footer {
 } */
 
 
-/* ~~~~~~ about ~~~~~~ */
-
-/* .about-pic {
-  height: auto;
-  max-width: 100%;
-}
-
-.about-text {
-  max-width: 47%;
-  padding-left: 10%;
-  padding-top: 20%;
-  position: absolute;
-  word-wrap: break-word;
-}
-
-.about-text h1 {
-  font-size: 25px;
-}
-
-.about-text p {
-  font-size: 22px;
-}
-
-.about {
-  color: black;
-  padding-bottom:  100px;
-} */
 
 
 /* ----- Tech ----- */
 
 .tech {
-  display: inline;
-  justify-content: center;
+  /* display: inline;
+  justify-content: center; */
+  height: 80vh;
+  margin: 5em 0 5em 0;
+  width: 100%;
 }
 
 .tech-box-left h1 {
@@ -149,7 +130,7 @@ footer {
 }
 
 .tech-box-left {
-  background-color: green;
+  color: black;
   float: left;
   height: 70vh;
   margin: 0 3em 0 3em;
@@ -157,67 +138,64 @@ footer {
 }
 
 .about-box {
-  background-color: red;
-  font-size: 0.9em;
+  background-color: #eaebeb;
+  font-size: 1.2em;
   height: 50%;
-  width: 50%;
+  padding: 0.5em;
+  margin-top: 2.6em;
+  width: 100%;
 }
 
 .facts-box {
-  background-color: blue;
+  background-color: #eaebeb;
   height: 50%;
-  width: 50%;
+  margin-top: 2em;
+  padding: 1.5em;
+  width: 100%;
 }
 
-.tech-background {
-  background-color: turquoise;
+.facts-li {
+  padding-left: 2em;
+}
+
+.tech-tools {
+  background-color: #eaebeb;
+  color: black;
+  display: flex;
+  height: 100%;
+  justify-content: flex-start;
+  margin: 0 auto;
+  max-width: 36%;
+  padding: 2em;
+  text-align: center;
+}
+
+.tech-tools ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 20%;
-  padding: 45px 10px 65px 0;
-  width: 48%;
-}
-
-.tech-background ul {
-  font-size: 35px;
-}
-
-.tech-background li {
-  font-size: 25px;
   list-style-type: none;
 }
 
-.tech-background li:hover {
+.tech-tools li:hover {
   list-style-type: none;
 }
 
-.tech-tile {
-  color: black;
-  padding: 5px;
+.text {
+  font-size: 1.1em;
 }
 
-.tech-tile img {
+.tech-list img {
+  display: block;
+  flex-wrap: wrap;
   height: 90px;
   width: 90px;
 }
 
-.tech-tile img:hover {
+.tech-list img:hover {
   transform: translateY(5%)
 }
 
-.tech-title {
-  color: black;
-  display: flex;
-  font-size: 35px;
-  justify-content: center;
-  padding-top: 10px;
-  width: 100%;
-}
 
-.p {
-  text-align: center;
-}
 
 
 /* ----- Footer ----- */
