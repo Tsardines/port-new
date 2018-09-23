@@ -6,10 +6,6 @@ body {
   width: 100%;
 }
 
-footer {
-  padding: 10px 0 ;
-}
-
 .particles-js {
   height: 100%;
   width: 100%;
@@ -95,22 +91,6 @@ footer {
   transition-timing-function: cubic-bezier(0.85, -0.95, 0.3, 2);
 }
 
-/* .svg {
-  padding-top: 25.25%;
-  position: relative;
-} */
-
-.projects {
-  color: black;
-  font-size: 3em;
-  padding-top: 3em;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-/* .row {
-  background-color: #eaeff1;
-} */
 
 
 
@@ -132,7 +112,7 @@ footer {
 .tech-box-left {
   color: black;
   float: left;
-  height: 70vh;
+  height: 90vh;
   margin: 0 3em 0 3em;
   width: 40%;
 }
@@ -203,6 +183,18 @@ footer {
 
 .tech-list img:hover {
   transform: translateY(5%)
+}
+
+
+
+/* ----- Projects ----- */
+
+.projects {
+  color: black;
+  font-size: 3em;
+  padding-top: 7em;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 
